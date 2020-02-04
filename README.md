@@ -1,6 +1,6 @@
 # MySQL Group Replication healthcheck script for ExaBGP
 
-The script based on the original one: https://github.com/Exa-Networks/exabgp/blob/master/lib/exabgp/application/healthcheck.py
+The script based on the original one: https://github.com/Exa-Networks/exabgp/blob/3.4/lib/exabgp/application/healthcheck.py
 
 It makes persistent connection to database and uses SQL query to check DB node role:
 
