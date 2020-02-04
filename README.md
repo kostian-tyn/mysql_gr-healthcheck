@@ -1,4 +1,4 @@
-# Healthcheck script for ExaBGP
+# MySQL Group Replication healthcheck script for ExaBGP
 It makes persistent connection to database and uses SQL query to check DB node role:
 'SELECT viable_candidate, read_only, transactions_behind FROM sys.gr_member_routing_candidate_status'
 You have to add the view previously - https://gist.github.com/lefred/6f79fd02d333851b8d18f52716f04d91
